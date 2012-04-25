@@ -1,17 +1,18 @@
 /*
  ============================================================================
- Name        : JThompsonAddressBook.c
+ Name        : JThompsonAddressBook
  Author      : James Thompson
- Version     :
- Copyright   : asdf
- Description : Hello World in C, Ansi-style
+ Version     : 1.0
+ Description : Address book with a doubly linked list.
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-	puts("asdf"); /* prints asdf */
+int main(int argc, char argv[]) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	printf("Ready\n");
+
 	return EXIT_SUCCESS;
 }
